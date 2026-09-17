@@ -180,7 +180,7 @@
         .badge-content {
             position: absolute;
             z-index: 1;
-            bottom: 20px;
+            bottom: 110px;
             left: 0;
             right: 0;
             text-align: center;
@@ -226,7 +226,7 @@
 
             <div class="control-group">
                 <label for="nameInput">Custom Name</label>
-                <input type="text" id="nameInput" placeholder="Enter volunteer name" value="JOHN DOE">
+                <input type="text" id="nameInput" placeholder="Enter volunteer name" value="Your Name">
             </div>
 
             <div class="button-group">
@@ -246,7 +246,7 @@
                     </div>
 
                     <div class="badge-content">
-                        <div class="badge-name" id="nameText">JOHN DOE</div>
+                        <div class="badge-name" id="nameText">Your Name</div>
                         <div class="badge-label" id="labelText">VOLUNTEER</div>
                     </div>
 
@@ -262,7 +262,7 @@
     <script>
         // Update badge name in real-time
         document.getElementById('nameInput').addEventListener('input', function() {
-            document.getElementById('nameText').textContent = this.value.toUpperCase() || 'JOHN DOE';
+            document.getElementById('nameText').textContent = this.value.toUpperCase() || 'Your Name';
         });
 
         function downloadBadge() {
@@ -287,8 +287,8 @@
         }
 
         function resetForm() {
-            document.getElementById('nameInput').value = 'JOHN DOE';
-            document.getElementById('nameText').textContent = 'JOHN DOE';
+            document.getElementById('nameInput').value = 'Your Name';
+            document.getElementById('nameText').textContent = 'Your Name';
         }
     </script>
 </body>
