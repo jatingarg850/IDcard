@@ -1,0 +1,20 @@
+{
+  "name": "volunteer-badge-generator",
+  "version": "1.0.0",
+  "description": "Generate custom volunteer ID badges as JPG",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vercel dev",
+    "build": "echo 'Static site - no build needed'",
+    "start": "vercel start"
+  },
+  "keywords": [
+    "badge",
+    "generator",
+    "volunteer",
+    "id-card"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {}
+}
